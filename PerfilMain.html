@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="https://kit.fontawesome.com/e195162fd2.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href="./PerfilMain.css" rel="stylesheet" />
+    <title>Perfil</title>
+</head>
+
+<body>
+    <div class="screen">
+        <!--navbar-->
+        <nav id="navbar" class="navbar fixed-top">
+            <span id="title" class="title">Perfil</span>
+            <img class="pull-right owlPerfil" src="./imagens/PerfilMain.coruja.svg">
+        </nav>
+        <!--User-section-->
+        <div class="userCircle">
+            <img class="userImg" src="./imagens/PerfilMain.utilizador.png">
+        </div>
+        <span id="parentName" class="parentName">Nome</span>
+        <span id="grauParentesco" class="grauParentesco">Grau</span>
+        <a href="PerfilUpdate.html">
+            <button class="editarPerfilBut">Editar Perfil</button>
+        </a>
+        <img class="cloudBackPerfil" src="./imagens/cloud 2.png">
+        <hr class="horizontalLine1">
+        <!--Mid-Section-->
+        <span class="filhosTag">Crianças</span>
+        <a href="CriarCriança.html">
+            <div class="addCircle">
+                <button class="addIconButton">
+                    <img class="addIcon" src="./imagens/PerfilMain.adicionar.svg">
+                </button>
+            </div>
+        </a>
+        <hr class="horizontalLine2">
+        <a href="LandingPage.html">
+            <button class="sairPerfilBut">Sair da Conta</button>
+        </a>
+        <!--Menubar-->
+        <div id="menubar" class="navbar fixed-bottom">
+            <div class="menubarMain">
+                <a href="ComunidadePais.html">
+                    <button class="homeIconButton">
+                        <img class="homeIcon" src="./imagens/homeIcon.png">
+                    </button>
+                </a>
+                <a href="KidsMenu.html">
+                    <button class="puzzleIconButton">
+                        <img class="puzzleIcon" src="./imagens/puzzleIcon.png">
+                    </button>
+                </a>
+                <a href="PerfilMain.html">
+                    <button class="personIconButton">
+                        <img class="personIcon" src="./imagens/personIcon.png">
+                    </button>
+                </a>
+            </div>
+            <div class="menubarDenuncia">
+                <a href="DenunciaForm.html">
+                    <button class="denunciaIconButton">
+                        <img class="denunciaIcon" src="./imagens/siren.svg">
+                    </button>
+                </a>
+            </div>
+        </div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="../mobile/fetch/PerfilMain.js" type="text/javascript"></script>
+</body>
+
+</html>
