@@ -12,6 +12,13 @@ function showPswd() {
     }
 }
 
+//webpack
+import './CriarConta.js';
+import './DenunciaForm.js';
+import '/Login.js';
+import '/PerfilMain.js';
+import '/PerfilUpdate.js';
+
 //criar conta
 
 window.onload = function() {
